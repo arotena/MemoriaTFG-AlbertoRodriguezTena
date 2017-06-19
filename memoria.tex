@@ -350,7 +350,7 @@ Python dispone de  dos versiones que son usadas en la actualidad la 2.x y la 3.x
 \section{Django}
 Django~\cite{django} es un framework (conjunto de componentes que te ayudan a desarrollar sitios web más fácil y rápidamente) para aplicaciones web gratuito y open source escrito en Python.
 
-Fué desarrollado en principio para gestionar varias páginas orientadas a noticias de World Company de Lawrence, Kansas y fue liberada al público bajo una licencia de BSD.
+Fué desarrollado en principio para gestionar varias páginas orientadas a noticias de World Company de Lawrence, Kansas y fue liberada al público bajo una licencia de BSD (Distribución de Software Berkeley).
 
 El principal objetivo que tiene Django es facilitar la creación de sitios web complejos, además, pone bastante incapíe en reusar la conectividad y extensibilidad de componentes de desarrollo rápido y el principio DRY (No te repitas). Python es utilizado en todas las partes de framework, incluso en configuraciones, archivos y en los modelos de datos.
 
@@ -362,7 +362,7 @@ Django requiere de una versión de Python 2.5 o superiores en este proyecto se ha
   \label{fig:django}
 \end{figure}
 \section{SQLite}
-SQLite~\cite{sqlite} es un motor de base de datos SQL de dominio público autónomo, de alta confiabilidad, incorporado y con todas las funciones. Es compatible con ACID, que esta contenida en una pequeña biblioteca escrita en C.
+SQLite~\cite{sqlite} es una biblioteca escrita en C que implementa un motor de base de datos SQL de dominio público, de alta confiabilidad, incorporado y con todas las funciones. Es compatible con ACID (Atomicidad, Consistencia, Aislamiento y Durabilidad).
 
 Es el motor de base de datos mas utilizado en el mundo. A diferencia de los sistemas de gestión de bases de datos cliente-servidor, el motor de SQLite no es un proceso independiente con el que el programa principal se comunica. En lugar de eso, la biblioteca de SQLite se enlaza con el programa pasando a ser parte integral del mismo. 
 
@@ -386,7 +386,7 @@ Debido a sus caractirístcas Git es de uso muy sencillo y tiene una huella muy pe
 \section{GitHub}
 Github~\cite{github} es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza el framework Ruby on Rails por Github.
 
-El código se almacena de forma pública, aunque tiene la posbilidad de almacenarlo de forma privada. Fue desarrollada por Tom Preston-Werner.
+El código se almacena de forma pública, aunque tiene la posbilidad de almacenarlo de forma privada. Fué desarrollada por Tom Preston-Werner.
 Github funciona de la siguiente manera aloja un respositorio de código y brinda las herramientas más útiles para el trabajo en equipo, de estas herramientas se puede destacar, wikis, sistemas de seguiemiento de problemas, herramientas de revisión de código y visor de ramas.
 \begin{figure}[H]
   \centering
@@ -512,7 +512,7 @@ CASOS CONTEMPLADOS & CASOS NO CONTEMPLADOS \\
 \end{center}
 \end{table}
   
-1. Se puede realizar un test de una función que se encuntre en el mismo fichero ya sea dentro o fuera de una clase, esto se puede llamar desde el self.assert de forma directa como podría ser por ejemplo, $self.assertEquals(funcion(), expected)$ o igualando una variable al resultado de la función como podría ser $x=funcion()$. Una vez está igualado se llamará a la $x$ dentro del self.assert quedando de esta forma, $self.assertEquals(x, expected)$.
+1. Se puede realizar un test de una función que se encuntre en el mismo fichero ya sea dentro o fuera de una clase, esto se puede llamar desde el self.assert de forma directa como podría ser por ejemplo, $self.assertEquals(funcion(),$ $expected)$ o igualando una variable al resultado de la función como podría ser $x=funcion()$. Una vez está igualado se llamará a la $x$ dentro del self.assert quedando de esta forma, $self.assertEquals(x,$         $expected)$.
 
 2. Sí la función que se quiere llamar se encuentra dentro de una clase que no esta en el mismo fichero que esta el test hay dos opciones posibles que contempla este proyecto. 
 \begin{itemize}
